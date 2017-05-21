@@ -1,0 +1,33 @@
+{
+  "name": "@savvy-css/normalize",
+  "version": "0.0.0",
+  "description": "Normalization settings for Savvy CSS",
+  "main": "build/savvy-normalize.css",
+  "keywords": [
+    "savvy-css",
+    "savvy-css-package",
+    "savvy-css-normalize",
+    "css normalization"    
+  ],
+  "repository": "git@github.com:savvy-css/normalize.git",
+  "author": "Brian Sipple",
+  "license": "MIT",
+  "scripts": {
+    "clean": "del build/**",
+    "setup": "yarn install && mkdir -p build",
+    "transform": "postcss index.css -o build/savvy-normalize.css -c postcss.config.js",
+    "transform:watch": "yarn run transform -w",
+    "build:dist": "yarn run clean && yarn run setup && yarn run transform",
+    "prepublish": "nsp check",
+    "release": "np"
+  },
+  "devDependencies": {
+    "del-cli": "^1.0.0",
+    "np": "^2.15.0",
+    "nsp": "^2.6.3",
+    "postcss-cli": "^4.0.0",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-import": "^10.0.0",
+    "postcss-reporter": "^3.0.0"
+  }
+}
