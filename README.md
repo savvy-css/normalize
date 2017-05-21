@@ -1,5 +1,7 @@
 # Savvy CSS Normalize
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/savvy-css/normalize.svg)](https://greenkeeper.io/)
+
 Normalization settings for Savvy CSS.
 
 Read more about [Savvy CSS's design principles](https://github.com/savvy-css/savvy/doc).
