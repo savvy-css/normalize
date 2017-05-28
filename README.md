@@ -1,5 +1,10 @@
 # Savvy CSS Normalize
 
+[![Latest NPM release][npm-badge]][npm-badge-url]
+[![Dependencies][dependencies-badge]][dependencies-badge-url]
+[![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
+[![License][license-badge]][license-badge-url]
+
 Normalization settings for Savvy CSS.
 
 Read more about [Savvy CSS's design principles](https://github.com/savvy-css/savvy/doc).
@@ -31,3 +36,13 @@ full set of style rules for HTML elements. For example, whereas
 normalization is concerned with ensuring that the `<body>` element always has
 `margin` set to `0`, a separate typography module should be concerned
 with defining a `font-family` stack for the `<body>` element.
+
+
+[npm-badge]: https://img.shields.io/npm/v/@savvy-css/normalize.svg
+[npm-badge-url]: https://www.npmjs.com/package/@savvy-css/normalize
+[license-badge]: https://img.shields.io/npm/l/@savvy-css/normalize.svg
+[license-badge-url]: LICENSE
+[dependencies-badge]: https://img.shields.io/david/savvy-css/normalize.svg
+[dependencies-badge-url]: https://david-dm.org/savvy-css/normalize
+[devDependencies-badge]: https://img.shields.io/david/dev/savvy-css/normalize.svg
+[devDependencies-badge-url]: https://david-dm.org/savvy-css/normalize#info=devDependencies
