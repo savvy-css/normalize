@@ -1,6 +1,6 @@
 {
   "name": "@savvy-css/normalize",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Normalization settings for Savvy CSS",
   "main": "build/normalize.css",
   "style": "build/normalize.css",
